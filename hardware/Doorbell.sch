@@ -384,7 +384,9 @@ $EndComp
 Wire Wire Line
 	2900 2550 3000 2550
 Wire Wire Line
-	2325 2450 2600 2450
+	2325 2450 2400 2450
+Wire Wire Line
+	2400 2450 2600 2450
 Wire Wire Line
 	2600 2450 2600 2550
 Wire Wire Line
@@ -392,19 +394,35 @@ Wire Wire Line
 Wire Wire Line
 	2600 2750 2600 2850
 Wire Wire Line
-	2600 2850 2325 2850
+	2600 2850 2400 2850
+Wire Wire Line
+	2400 2850 2325 2850
 Connection ~ 2400 2450
 Connection ~ 2400 2850
 Wire Wire Line
 	4700 1500 4700 1600
 Wire Wire Line
-	3900 825  3900 1600
+	3900 825  3900 975 
+Wire Wire Line
+	3900 975  3900 1225
+Wire Wire Line
+	3900 1225 3900 1500
+Wire Wire Line
+	3900 1500 3900 1600
 Wire Wire Line
 	3900 1800 3900 1900
 Wire Wire Line
-	4700 1800 4700 2700
+	4700 1800 4700 1900
 Wire Wire Line
-	4700 1500 5350 1500
+	4700 1900 4700 1950
+Wire Wire Line
+	4700 1950 4700 2150
+Wire Wire Line
+	4700 2150 4700 2700
+Wire Wire Line
+	4700 1500 4925 1500
+Wire Wire Line
+	4925 1500 5350 1500
 Connection ~ 4700 1500
 Wire Wire Line
 	4700 2700 4800 2700
@@ -457,14 +475,20 @@ Connection ~ 3900 1500
 Wire Wire Line
 	4475 925  4300 925 
 Wire Wire Line
-	4300 925  4300 1075
+	4300 925  4300 975 
+Wire Wire Line
+	4300 975  4300 1025
+Wire Wire Line
+	4300 1025 4300 1075
 Wire Wire Line
 	4475 1025 4300 1025
 Connection ~ 4300 1025
 Wire Wire Line
 	4800 2750 4800 2600
 Wire Wire Line
-	3600 2750 4800 2750
+	3600 2750 4025 2750
+Wire Wire Line
+	4025 2750 4800 2750
 Wire Wire Line
 	4025 2475 4025 2500
 Wire Wire Line
@@ -520,9 +544,19 @@ Wire Wire Line
 Wire Wire Line
 	5350 1500 5350 1575
 Wire Wire Line
-	5350 1775 5350 2400
+	5350 1775 5350 1950
 Wire Wire Line
-	3900 1900 4700 1900
+	5350 1950 5350 2150
+Wire Wire Line
+	5350 2150 5350 2250
+Wire Wire Line
+	5350 2250 5350 2400
+Wire Wire Line
+	3900 1900 4150 1900
+Wire Wire Line
+	4150 1900 4300 1900
+Wire Wire Line
+	4300 1900 4700 1900
 $Comp
 L D D2
 U 1 1 571DA883
@@ -540,4 +574,5 @@ Connection ~ 4300 975
 Wire Wire Line
 	3950 975  3900 975 
 Connection ~ 3900 975 
+Connection ~ 4925 1500
 $EndSCHEMATC

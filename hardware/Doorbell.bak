@@ -358,7 +358,7 @@ Text Notes 2125 2300 0    60   ~ 0
 Text Notes 2675 2875 0    60   ~ 0
 5.2ma
 Text Notes 1450 3725 0    60   ~ 0
-TODO:\nCap Spec: Input\nCap Spec: Decoupling (3x)
+TODO:\nCap Spec: Input
 $Comp
 L C_Small C4
 U 1 1 571D664A
