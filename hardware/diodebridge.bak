@@ -1,0 +1,15 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#
+# DiodeBridge
+#
+DEF DiodeBridge BR 0 40 Y Y 1 F N
+F0 "BR" 0 0 60 H V C CNN
+F1 "DiodeBridge" 0 0 60 H V C CNN
+F2 "" 0 0 60 H V C CNN
+F3 "" 0 0 60 H V C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
+#End Library
